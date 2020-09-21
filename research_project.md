@@ -17,6 +17,6 @@ A fundamental aspect of a project is its reproducibility. A person not familiar 
 - autoformat your code using [black](https://black.readthedocs.io/en/latest/)
 
 ## Results
-- save important figures as images in the appropriate folder
+- save important figures as images in the appropriate folder, a notebook can be exported as html with embedded images
 - experiment results should be run with [sacred](https://sacred.readthedocs.io/en/stable/) and the results stored in the MongoDB of the server
     - add files created in the run of the experiment as artefacts
