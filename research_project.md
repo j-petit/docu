@@ -22,7 +22,7 @@ For further info, consult the documentation of dvc.
 - use conda to manage your python environment
     - each project should have its own environment
     - have an `environment.yml` ready to create the environment
-    - python based tools like jupyter should not be part of the environment, instead [stack](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#nested-activation) the new environment upon the project specific one
+    - python based tools like jupyter, dvc, black should **not** be part of the environment, instead [stack](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#nested-activation) the new environment upon the project specific one
 - autoformat your code using [black](https://black.readthedocs.io/en/latest/)
 
 ## Results
